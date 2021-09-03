@@ -1,0 +1,13 @@
+dependencias:
+spring web
+spring data JPA
+h2 database
+lombok
+
+criar pacotes:
+controller
+exception
+model
+repository
+
+
