@@ -16,7 +16,8 @@ import javax.persistence.*;
 public class Room {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue
     private long id;
 
     @Column(name = "name",nullable = false)
@@ -29,5 +30,5 @@ public class Room {
     private String starthour;
 
     @Column(name = "endhour",nullable = false)
-    private String endthour;
+    private String endhour;
 }

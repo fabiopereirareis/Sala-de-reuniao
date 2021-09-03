@@ -45,7 +45,7 @@ public class RoomController {
         room.setName(roomDetails.getName());
         room.setDate(roomDetails.getDate());
         room.setStarthour(roomDetails.getStarthour());
-        room.setEndthour(roomDetails.getEndthour());
+        room.setEndhour(roomDetails.getEndhour());
         final Room updateRoom =roomRepository.save(room);
         return ResponseEntity.ok().body(updateRoom);
     }

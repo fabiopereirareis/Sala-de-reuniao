@@ -25,3 +25,6 @@ criar interface repository
 criar classe ErrorDetails / exception
 criar classe GlobalExceptionHandler / exception
 criar classe RsourseNotFoundException / exception
+
+-------------------- rodou mas não adicionou objeto pelo postman
+consegue puxar tudo 
