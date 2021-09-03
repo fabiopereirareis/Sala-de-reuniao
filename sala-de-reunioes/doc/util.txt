@@ -10,4 +10,18 @@ exception
 model
 repository
 
+adiconar dependencias:
+<dependency>
+<groupId>jakarta.validation</groupId>
+<artifactId>jakarta.validation-api</artifactId>
+<version>2.0.2</version>
+</dependency>
 
+
+criar classe model com atributos
+
+criar interface repository
+
+criar classe ErrorDetails / exception
+criar classe GlobalExceptionHandler / exception
+criar classe RsourseNotFoundException / exception
