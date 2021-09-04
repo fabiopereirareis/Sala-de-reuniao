@@ -74,4 +74,11 @@ colar codigo html(git-hub) no room-list html
 colei tudo o conteudo do room list (professora não explica muito)
 
 parei na aula 11(erros na IDE, copiando e colando tudo, pois a professora não explica)
+--------------- retomando -------------------------------
+colar codigo html no create-room  :(
+colar codigo ts no create-room :(
+
+copia  - - - - - --  - cola
+caso de erro incluir essa linha no /polyfills.ts
+
 

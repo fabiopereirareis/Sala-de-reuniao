@@ -5,4 +5,6 @@ export class Room {
     startHour: string;
     endHour: string;
     active: boolean;
+
+    constructor(){};
 }
