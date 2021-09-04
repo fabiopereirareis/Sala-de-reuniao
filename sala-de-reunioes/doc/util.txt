@@ -31,3 +31,47 @@ consegue puxar tudo
 erro de digitação o campo valid trava se não tiver os valores iguais
 --------------------- resolvido --------------------------------
 
+====================== front-end ===============================
+verifcar versão do node : node -v
+verifcar versão do npm : nmp -v
+verificar versão do angular : ng --version
+
+iniciar projeto angular : ng new <nome do projeto>
+
+criar um componente service : ng g s nome do serviço
+criar um componente : ng g c nome do componente
+instalar bootstrap : npm install bootstrap jquery --save
+
+------------------- passo-a-passo ------------------------
+criar room service s
+ 	create-room c
+ 	room-details c
+	room-list c
+	update-room c
+
+instalar bootstrap
+adicionar os estilos e scripts do bootstrap no angular
+"styles": [
+              "src/styles.css" ,
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ]
+"scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
+criar um model : room.ts (esse criado na mão, botão direito do mouse)
+
+exportar classe no arquivo room.ts
+colocar os atributos:
+- id
+- name
+- date
+- startHour
+- endHour
+- active
+======================== dando erro: construtor =================
+colar codigo html(git-hub) no room-list html
+colei tudo o conteudo do room list (professora não explica muito)
+
+parei na aula 11(erros na IDE, copiando e colando tudo, pois a professora não explica)
+
