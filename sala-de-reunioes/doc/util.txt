@@ -27,4 +27,7 @@ criar classe GlobalExceptionHandler / exception
 criar classe RsourseNotFoundException / exception
 
 -------------------- rodou mas não adicionou objeto pelo postman
-consegue puxar tudo 
+consegue puxar tudo
+erro de digitação o campo valid trava se não tiver os valores iguais
+--------------------- resolvido --------------------------------
+
